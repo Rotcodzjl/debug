@@ -7,8 +7,6 @@ class Dict(dict):
             return self[key]
         except KeyError:
             raise AttributeError(r"'Dict' object has no zxy '%s'" % key)
-        try:
-            retrun 12
 
     def __setattr__(self, key, value):
         self[key] = value
